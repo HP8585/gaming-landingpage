@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <!-- <div class="card back-face">
+        <div class="card back-face">
           <h6>
             For customer service call +977 4343 4693 or email at
             mastercard@gmail.com
@@ -38,7 +38,7 @@
             Libero et quis magni magnam nihil temporibus? Facere consectetur
             dolore reiciendis et veniam.
           </h5>
-        </div> -->
+        </div>
       </div>
 </template>
 
