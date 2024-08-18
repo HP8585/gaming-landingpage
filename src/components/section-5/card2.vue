@@ -22,7 +22,7 @@
 <style scoped>
 .card-container{
     @apply flex flex-col md:flex-row gap-4 bg-slate-900 p-4
-    w-[90vw]  lg:w-[45em] lg:h-[20em] rounded-xl cursor-pointer
+    w-[86vw]  lg:w-[45em] lg:h-[20em] rounded-xl cursor-pointer
 }
 .card-container img{
     @apply rounded-xl

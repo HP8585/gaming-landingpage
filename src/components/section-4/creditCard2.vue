@@ -45,7 +45,7 @@
 .container {
   position: relative;
   height: 225px;
-  width: 375px;
+  width: 335px;
   z-index: 100;
   transition: 0.6s;
   transform-style: preserve-3d;

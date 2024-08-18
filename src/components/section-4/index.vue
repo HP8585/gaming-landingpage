@@ -16,10 +16,11 @@ import creditCard2 from './creditCard2.vue';
 
 <style scoped>
 .section-3-container{
-    @apply flex flex-col gap-4 justify-center items-center mt-5 py-12
+    @apply flex flex-col gap-4 justify-center items-center
+    mt-5 py-12
 }
 .section-3-container h1{
-    @apply font-semibold text-6xl;
+    @apply font-semibold text-5xl md:text-6xl;
     font-family: Gaming2;
 }
 </style>

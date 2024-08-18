@@ -114,7 +114,7 @@ ol > li{
 }
 
 .character {
-  width: 100%;
+  @apply w-[70%] sm:w-[80%];
   opacity: 0;
   transition: all 0.5s;
   position: absolute;

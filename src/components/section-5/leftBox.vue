@@ -31,7 +31,7 @@
 
 <style scoped>
 .leftBox{
-    @apply w-[90vw] lg:w-[40em] h-[50em] overflow-hidden rounded-xl relative cursor-pointer;
+    @apply w-[86vw] lg:w-[40em] h-[50em] overflow-hidden rounded-xl relative cursor-pointer;
 }
 .leftBox > img{
     @apply duration-100 ease-in

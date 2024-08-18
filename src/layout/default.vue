@@ -16,13 +16,16 @@ if (element) {
     <header>
         <img src="../assets/img/logo.svg" class="w-20">
         
-        <ul class="menu">
+        <nav>
+            <ul class="menu">
             <li @click="scrollItem('.sec1')">Home</li>
             <li @click="scrollItem('.sec2')">Heros</li>
             <li @click="scrollItem('.sec3')">About</li>
             <li @click="scrollItem('.sec4')">Purchase</li>
             <li @click="scrollItem('.sec5')">News</li>
         </ul>
+        </nav>
+        
         <Button >Login</Button>
     </header>
     <main class="mx-auto w-fit">
@@ -34,7 +37,7 @@ if (element) {
 <style scoped>
 header{
     @apply flex justify-between items-center backdrop-blur-md
-    sticky top-0 z-[560];
+    sticky right-0 top-0 z-[560];
 }
 header .menu{
     @apply md:flex gap-4 font-semibold hidden
