@@ -70,7 +70,6 @@
   transform: skewY(-20deg);
   animation: animate 5s linear infinite;
   width: fit-content;
-  margin-inline: auto;
 }
 .container .cube {
   position: relative;

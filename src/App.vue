@@ -16,28 +16,28 @@ sec5 = ref(null);
 // Array of section refs
 const sections = [sec1, sec2, sec3, sec4, sec5];
 
-onMounted(() => {
-  Gsaps.headerGsap()
-  Gsaps.joinBtn()
-  Gsaps.cubeGsap()
-  Gsaps.descCubeGsap()
-  Gsaps.newsCard1()
-  Gsaps.newsCard2()
-  Gsaps.leftBoxGsap()
+// onMounted(() => {
+//   Gsaps.headerGsap()
+//   Gsaps.joinBtn()
+//   Gsaps.cubeGsap()
+//   Gsaps.descCubeGsap()
+//   Gsaps.newsCard1()
+//   Gsaps.newsCard2()
+//   Gsaps.leftBoxGsap()
 
-  sections.forEach((sectionRef, index) => {
-    // Check if the ref has a value to prevent committing null or undefined
-    if (sectionRef) {
-      store.commit('assignSection', {
-        name: `section${index}`,
-        component: sectionRef.value
-      });
-    } else {
-      console.warn(`Section ${index + 1} is null.`);
-    }
-  });
+//   sections.forEach((sectionRef, index) => {
+//     // Check if the ref has a value to prevent committing null or undefined
+//     if (sectionRef) {
+//       store.commit('assignSection', {
+//         name: `section${index}`,
+//         component: sectionRef.value
+//       });
+//     } else {
+//       console.warn(`Section ${index + 1} is null.`);
+//     }
+//   });
 
-});
+// });
 
 // watchEffect(()=>{
 //   setInterval(() => {

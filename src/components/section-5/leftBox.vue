@@ -31,7 +31,7 @@
 
 <style scoped>
 .leftBox{
-    @apply w-[40em] h-[50em] overflow-hidden rounded-xl relative cursor-pointer;
+    @apply w-[90vw] lg:w-[40em] h-[50em] overflow-hidden rounded-xl relative cursor-pointer;
 }
 .leftBox > img{
     @apply duration-100 ease-in
@@ -49,7 +49,7 @@
 }
 
 .leftBox .card{
-    @apply absolute bottom-0 mx-8 px-4 rounded-lg z-[15] pb-5 py-7 bg-black
+    @apply absolute bottom-0 md:mx-8 px-4 rounded-lg z-[15] pb-5 py-7 bg-black
     flex flex-col gap-3
 }
 .leftBox .card .published{

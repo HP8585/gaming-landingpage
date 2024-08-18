@@ -8,7 +8,29 @@ import carSlider from './car-slider.vue'
 
 <template>
     <div class="mt-4 pb-10 overflow-y-visible overflow-x-hidden">
-        <Carousel  :itemsToShow="5" :wrapAround="true" class="overflow-visible">
+        <Carousel  :breakpoints="{
+            440:{
+                itemsToShow: 1
+            },
+            500:{
+                itemsToShow: 1.5
+            },
+            590:{
+                itemsToShow: 2
+            },
+            650:{
+                itemsToShow: 2.5
+            },
+            790:{
+                itemsToShow: 3
+            },
+            940:{
+                itemsToShow: 3.5
+            },
+            1070:{
+                itemsToShow: 4
+            }
+        }" :wrapAround="true" class="overflow-visible">
             <Slide v-for="(item, idx) in 10" :key="idx" >
                 <carSlider :item="item"/>
             </Slide>

@@ -1,5 +1,6 @@
 <script setup>
 import CreditCard from './creditCard.vue'
+import creditCard2 from './creditCard2.vue';
 </script>
 
 <template>
@@ -8,7 +9,8 @@ import CreditCard from './creditCard.vue'
         <h1>Purchase</h1>
         <span> With your credit card wherever you are!</span>
     </div>
-    <CreditCard/>
+    <CreditCard class="md:block hidden"/>
+    <creditCard2 class="md:hidden block"/>
 </section>
 </template>
 

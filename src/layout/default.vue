@@ -12,7 +12,7 @@ if (element) {
 </script>
 
 <template>
-<div class="px-8">
+<div class="px-8 overflow-hidden">
     <header>
         <img src="../assets/img/logo.svg" class="w-20">
         
@@ -37,7 +37,7 @@ header{
     sticky top-0 z-[560];
 }
 header .menu{
-    @apply flex gap-4 font-semibold
+    @apply md:flex gap-4 font-semibold hidden
 }
 header .menu > li{
     @apply cursor-pointer relative

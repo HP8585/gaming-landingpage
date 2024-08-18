@@ -1,9 +1,9 @@
 <template>
     <div class="card-container card1">
         <div class="imgCon">
-            <img src="../../assets/img/news-2.webp" class="w-full h-full object-cover">
+            <img src="../../assets/img/news-1.jpg" class="w-full h-full object-cover">
         </div>
-        <div class="w-full flex flex-col gap-12">
+        <div class="w-full flex flex-col gap-2 lg:gap-12">
             <div class="flex flex-col gap-4">
                 <div class="flex items-center justify-between w-[100%]">
                     <div class="chip">Announcement</div>
@@ -21,8 +21,8 @@
 
 <style scoped>
 .card-container{
-    @apply flex gap-4 bg-slate-900 p-4
-    w-[45em] h-[20em] rounded-xl cursor-pointer
+    @apply flex flex-col md:flex-row gap-4 bg-slate-900 p-4
+    w-[90vw]  lg:w-[45em] lg:h-[20em] rounded-xl cursor-pointer
 }
 .card-container img{
     @apply rounded-xl
@@ -38,7 +38,7 @@ h1{
     @apply text-3xl 
 }
 .imgCon{
-    @apply w-[30em] overflow-hidden
+    @apply md:w-[30em] overflow-hidden
 }
 .imgCon img{
     @apply duration-100

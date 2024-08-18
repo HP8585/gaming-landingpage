@@ -5,11 +5,11 @@ import rightBox from './rightBox.vue'
 
 <template>
     <section class="section-5-container">
-        <div class="flex items-center justify-between -mb-20">
+        <div class="flex items-center justify-between lg:-mb-20">
             <h1 class="news">HEARD THE NEWS?</h1>
-            <img src="../../assets/img/arcanist.webp" class="w-96">
+            <img src="../../assets/img/arcanist.webp" class="w-96 lg:block hidden">
         </div>
-        <div class="flex gap-12">
+        <div class="flex flex-col lg:flex-row gap-12">
                 <leftBox/>
 
                 <rightBox/>

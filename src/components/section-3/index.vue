@@ -13,11 +13,11 @@ import Cube from './cube.vue'
 
 <style scoped>
 .section-3-container{
-    @apply flex gap-52 justify-center mt-5
+    @apply flex flex-row md:flex-row md:gap-52 justify-center mt-5
 }
 .section-3-container p{
-    @apply w-[30em] text-lg font-semibold bg-black 
-    bg-opacity-50 p-4 rounded-lg
+    @apply md:w-[30em] text-lg font-semibold bg-black 
+    bg-opacity-50 p-4 rounded-lg z-[20]
 }
 
 </style>
